@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+html{
+ 	background:black;
+}
+#disclaim{
+  font-size: 12px;
+}
+#index_title{
+  text-align: center;
+  font-family:'Major Mono Display';
+}
+h1{
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#basic_button{
+  border: 0px;
+}
+.indiv_title{
+  font-size:16px;
+  text-align:center;
+  color: rgb(0, 162, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+.indiv_wrapper{
+  background:rgb(20,20,20);
+  width:146px;
+  padding:4px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 5px;
+  height: 160px;
+  margin: 8px;
+  float: left;
+}
+.indiv_wrapper2{
+  background:rgb(20,20,20);
+  width:146px;
+  padding:4px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 5px;
+  height: 160px;
+  margin: 8px;
+}
+.indiv_img{
+  border-radius: 5px;
+}
+a:link{
+  text-decoration: none;
+  color:rgb(0, 162, 255);;
+}
+a:visited{
+  text-decoration: none;
+  color:rgb(0, 162, 255);;
+}
+#get_link{
+  color:rgb(0, 162, 255);;
+  background-color: rgb(30, 30, 30);
+  border-radius: 3px;
+  padding:2px;
+}
+.button1{
+  border: 3px solid rgb(0, 162, 255);
+  border-radius: 2px;
+  background: rgb(20, 20, 20);
+  color:white;
+}
+.on{
+  color:rgb(100,255,100);
+}
+.off{
+  color:rgb(255,50,50);
+}
+.pos{
+  color: rgb(255, 174, 0)
+}
+#welcome_title{
+  color: rgb(0, 162, 255);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: -10px;
+}
+#welcome_wrapper{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+}
+#welcome_main{
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+}
+#welcome_foot{
+  color: rgb(0, 162, 255);
+  font-family: monospace;
+  font-size: 20px;
+}
+#center_welcome_div{
+  text-align:center;
+}
+#text_header{
+  color:rgb(0, 162, 255);
+  font-size:34px;
+  font-family:monospace;
+}
+#main_content_welcome{
+  color:white;
+}
+#access_wrapper{
+  text-align:center;
+  color:rgb(0, 162, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+#access_link{
+  color:rgb(0, 162, 255);
+  font-family: monospace;
+  font-size:24px;
+  letter-spacing: 4px;
+}
+#access_linkto{
+  color:rgb(0, 162, 255);
+  font-family: monospace;
+  font-size:16px;
+}
+#access_info{
+  color:white;
+  font-family: sans-serif;
+  font-size:18px;
+}
+#access_title{
+  font-family: monospace;
+  font-size: 34px;
+  color:white;
+}
+iframe{
+  border:none;
+  margin:0px;
+  margin-top:14px;
+  outline:none;
+}
+.effect{
+  width: max-content;
+  --color1: rgb(0, 162, 255);
+  --color2: rgb(0, 68, 255);
+  --color3: rgb(0, 247, 255);
+  --angle: 0deg;
+  padding-bottom: 4px;
+	border-bottom: 4px solid;
+	border-image: conic-gradient(from var(--angle), var(--color1), var(--color3), var(--color2)) 1;
+	animation: 8s rotate linear infinite;
+}
+.featured{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid rgb(0, 162, 255);
+}
+.featured::before{
+  content: 'featured games';
+  color: rgb(0, 162, 255);
+  display: flex;
+  align-self: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*add underline grad*/
