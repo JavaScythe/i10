@@ -13,12 +13,12 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
       <p style="color:white;">Games:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Chats:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Resources:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">MusicList:<span class="on">&nbsp;⬤</span></p>
+      <p style="color:white;">MusicList:<span class="off">&nbsp;⬤</span></p>
       <p style="color:white;">Discord Server:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Discord Gift Gen:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Analytics:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Web Proxy:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Chromium Hack:<span class="pos">&nbsp;⬤</span></p>
+      <p style="color:white;">Firefox Hack:<span class="off">&nbsp;⬤</span></p>
       <!-- Me: class="off" -->
       </div>
   </div> 
