@@ -38,7 +38,7 @@ function injectHeader() {
       </a>
       <nav>
         <ul class="navmenu">
-	        <li><a href="https://i10.repl.co">Home</a></li>
+	        <li><a href="/">Home</a></li>
 	        <li><a href="/resources.php">Resources</a></li>
 	        <li><a href="/games.php">Games</a></li>
 	        <li><a href="/chat.php">Chat</a></li>
