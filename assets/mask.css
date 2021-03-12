@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Karla&display=swap");
+#inner-slider {
+  padding: 40px;
+}
+body {
+  background-color: #000;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+h2 {
+  color: rgb(0, 162, 255);
+  font-weight: normal;
+  font-family: "Comfortaa", cursive;
+}
+li a {
+  color: rgb(0, 162, 255);
+  font-family: "Karla";
+  transition: all 0.3s;
+  margin-bottom: 6px;
+  margin: 4px;
+  font-size: 18px;
+}
+li a:hover {
+  color: rgb(0, 26, 255);
+}
+.az-links {
+  margin-top: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.az-links li > a {
+  font-size: 34px;
+}
+.az-links li > span {
+  font-size: 34px;
+  color: red;
+  font-family: "Karla";
+  transition: all 0.3s;
+  margin-bottom: 6px;
+}
+.seven {
+  margin: 40px;
+  font-size: 24px;
+  color: rgb(0, 162, 255);
+  font-family: "Karla";
+  transition: all 0.3s;
+  margin-bottom: 6px;
+}
+a {
+  text-decoration: none;
+}
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Karla', sans-serif;
+*/
