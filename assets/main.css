@@ -299,3 +299,6 @@ div iframe {
 .note{
   display: block;
 }
+.back-to-top{
+  display: none;
+}
