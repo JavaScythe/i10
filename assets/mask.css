@@ -55,6 +55,9 @@ li a:hover {
 a {
   text-decoration: none;
 }
+.back-to-top{
+  display: none;
+}
 /*
 font-family: 'Comfortaa', cursive;
 font-family: 'Karla', sans-serif;
