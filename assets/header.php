@@ -33,7 +33,7 @@ function injectHeader() {
 
 <body>
 	<header>
-		<a href="https://i10.repl.co/">
+		<a href="/">
 			<h1 class="head_title">Underground Union<span id="spacing">&nbsp;&nbsp;</span><a class="head_desc">'.$tip.'</a></h1>
       </a>
       <nav>
