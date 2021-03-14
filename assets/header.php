@@ -11,6 +11,7 @@ function injectHeader() {
     gtag("js", new Date());
     gtag("config", "G-RZG4G9H3VN");
 	</script>
+	<script src="/assets/detect.js" async></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
   <meta property="og:type" content="website" />
@@ -18,7 +19,7 @@ function injectHeader() {
   <meta property="og:title" content="Under&zwnj;ground Uni&zwnj;on" />
   <meta property="og:description" content="Pr&zwnj;oxy server, ga&zwnj;mes, ch&zwnj;ats, ha&zwnj;cks, all kinds of sc&zwnj;ripts and things unbl&zwnj;ocked in sch&zwnj;ool" />
   <meta property="og:image" content="/assets/ogimg.png" />
-  <meta property="og:url" content="https://i10.repl.co/" />
+  <meta property="og:url" content="https://i10.herokuapp.com/" />
   <meta property="og:site_name" content="Under&zwnj;ground Uni&zwnj;on" />
   <meta name="twitter:title" content="Under&zwnj;ground Uni&zwnj;on">
   <meta name="twitter:description" content="Pr&zwnj;oxy server, ga&zwnj;mes, ch&zwnj;ats, ha&zwnj;cks, all kinds of sc&zwnj;ripts and things unbl&zwnj;ocked in sch&zwnj;ool">
