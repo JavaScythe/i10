@@ -11,7 +11,7 @@ function injectHeader() {
     gtag("js", new Date());
     gtag("config", "G-RZG4G9H3VN");
 	</script>
-	<script src="/assets/detect.js" async></script>
+	<script src="/assets/header.js" async></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
   <meta property="og:type" content="website" />

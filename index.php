@@ -34,11 +34,6 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <ul style="font-family:arial;font-size:14px;color:white;">
   <li>Github Push Test</li>
   <li>Check the chat for news on the blocking of repl.it</li>
-  <li>New proxy mirror up: <a href="https://tdn1b.sse.codesandbox.io/" target="_blank">link here</a></li>
-  <li>Server move (once again) success!</li>
-  <li>Get updates in another format, a <a href="https://blog.i10.repl.co" target="_blank">blog!</a></li>
-  <li>Get emails updates from i10! <a href="https://forms.gle/yJFRGSkNv6neLvev9">Submit your email</a></li>
-  <li>MusicList is working, use the music tab</li>
   <li>Yeah, I need a better name for this site. Suggest one <strong><a href="https://forms.gle/8tjDemWKyqUUH9uk9" style="color:rgb(0, 162, 255);">here.</a></strong></li>
 </ul>
 </blockquote>
