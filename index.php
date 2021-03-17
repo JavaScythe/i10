@@ -32,6 +32,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <h1 style="font-size:28px;color:rgb(0, 162, 255);text-decoration:underline;font-family:'Major Mono Display'">Bulletin</h1>
 <p>Important messages from the developer</p>
 <ul style="font-family:arial;font-size:14px;color:white;">
+  <li>Github Push Test</li>
   <li>Check the chat for news on the blocking of repl.it</li>
   <li>New proxy mirror up: <a href="https://tdn1b.sse.codesandbox.io/" target="_blank">link here</a></li>
   <li>Server move (once again) success!</li>
