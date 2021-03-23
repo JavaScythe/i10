@@ -4,6 +4,9 @@ if (isMobile) {
 } else {
   console.log("Detected as bigger screen e.g. PC monitor");
 }
+if (location.protocol !== "https:") {
+  location.protocol = "https:";
+}
 var style = document.createElement("LINK");
 style.setAttribute(
   "href",
