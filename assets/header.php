@@ -26,6 +26,10 @@ function injectHeader() {
   <meta name="twitter:image" content="/assets/ogimg.png">
   <meta name="description" content="Pr&zwnj;oxy server, ga&zwnj;mes, ch&zwnj;ats, ha&zwnj;cks, all kinds of sc&zwnj;ripts and things unbl&zwnj;ocked in sch&zwnj;ool" >
   <meta name="robots" content= "index, follow">
+  <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
 	<title>&zwnj;</title>
 	<link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg=="
 	/>
