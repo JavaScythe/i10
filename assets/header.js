@@ -4,6 +4,7 @@ if (isMobile) {
 } else {
   console.log("Detected as bigger screen e.g. PC monitor");
 }
+//https
 if (location.protocol !== "https:") {
   location.protocol = "https:";
 }
