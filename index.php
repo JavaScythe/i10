@@ -18,7 +18,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
       <p style="color:white;">Discord Gift Gen:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Analytics:<span class="on">&nbsp;⬤</span></p>
       <p style="color:white;">Web Proxy:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Firefox Hack:<span class="off">&nbsp;⬤</span></p>
+      <p style="color:white;">Firefox Hack:<span class="on">&nbsp;⬤</span></p>
       <!-- Me: class="off" -->
       </div>
   </div> 
@@ -32,7 +32,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <h1 style="font-size:28px;color:rgb(0, 162, 255);text-decoration:underline;font-family:'Major Mono Display'">Bulletin</h1>
 <p>Important messages from the developer</p>
 <ul style="font-family:arial;font-size:14px;color:white;">
-  <li>Github Push Test</li>
+  <li>REPLIT.COM IS UNBLOCKED!!</li>
   <li>Check the chat for news on the blocking of repl.it</li>
   <li>Yeah, I need a better name for this site. Suggest one <strong><a href="https://forms.gle/8tjDemWKyqUUH9uk9" style="color:rgb(0, 162, 255);">here.</a></strong></li>
 </ul>
