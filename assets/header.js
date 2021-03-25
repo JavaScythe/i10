@@ -16,7 +16,7 @@ style.setAttribute(
 style.setAttribute("rel", "stylesheet");
 document.head.appendChild(style);
 function randomNumber(min, max) {
-  const r = Math.random() * (max - min) + min;
+  var r = Math.random() * (max - min) + min;
   return Math.floor(r);
 }
 function modal(msg, type) {
