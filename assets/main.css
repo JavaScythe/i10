@@ -305,6 +305,9 @@ div iframe {
 .note{
   display: block;
 }
+#devboi{
+  transition: all .2s;
+}
 #devboi:hover::after{
   content: "#3857";
   color: rgb(0, 162, 255);
