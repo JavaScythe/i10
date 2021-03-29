@@ -309,6 +309,23 @@ div iframe {
   transition: all .2s;
 }
 #devboi:hover::after{
+  animation: fadeW .4s linear;
   content: "#3857";
   color: rgb(0, 162, 255);
+  opacity: 100;
+}
+#devboi::after{
+  transition: all .5s;
+  content: "";
+  opacity: 0;
+}
+@keyframes fadeW{
+  0%{width: 0px }
+  50%{width: calc(auto / 2)}
+  100%{width: auto}
+}
+@-webkit-keyframes fadeW{
+  0%{width: 0px }
+  50%{width: calc(auto / 2)}
+  100%{width: auto}
 }
