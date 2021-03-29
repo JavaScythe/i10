@@ -32,7 +32,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <h1 style="font-size:28px;color:rgb(0, 162, 255);text-decoration:underline;font-family:'Major Mono Display'">Bulletin</h1>
 <p>Important messages from the developer</p>
 <ul style="font-family:arial;font-size:14px;color:white;">
-  <li>REPLIT.COM IS UNBLOCKED!!</li>
+  <li>Newsletter sent!</li>
+  <li>Replit.com is unblocked</li>
   <li>Check the chat for news on the blocking of repl.it</li>
   <li>Yeah, I need a better name for this site. Suggest one <strong><a href="https://forms.gle/8tjDemWKyqUUH9uk9" style="color:rgb(0, 162, 255);">here.</a></strong></li>
 </ul>
