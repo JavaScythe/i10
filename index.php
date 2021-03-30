@@ -17,7 +17,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
         var res;
         try{res = await fetch("https://387e5.sse.codesandbox.io/api");}catch(e){alert(e)};
         res = await res.text();
-        alert(res);
+        //alert(res);
         for (i in res["status"]) {
           document
             .getElementById("stat_wrap")
