@@ -18,7 +18,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
         try{res = await fetch("https://387e5.sse.codesandbox.io/api", {
           mode: "no-cors"
         });}catch(e){alert(e)};
-        res = await res.json();
+        res = await res.text();
+        alert(res);
         for (i in res["status"]) {
           document
             .getElementById("stat_wrap")
