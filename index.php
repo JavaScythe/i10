@@ -5,6 +5,12 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <html>
   <head>
   <link href="/assets/main.css" rel="stylesheet" />
+  <link href="/assets/gleff.css" rel="stylesheet" />
+  <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+      type="text/css"
+    />
   <?php echo injectHeader(); ?>
   <div style="border: 2px solid rgb(0, 162, 255);float:right;width:300px;margin:20px;padding:5px;text-align:center">
       <h1 style="font-size:30px;text-align:center;color:white;margin:0px;font-family:'Major Mono Display',monospace;border-bottom:2.5px solid rgb(0, 162, 255);padding:2px;">server status</h1>
@@ -42,7 +48,11 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <div id="existing">
 <div style="width:500px;height:52.66px;border:none;margin-top:50px;margin-bottom:30px;padding:none;margin-left:auto;margin-right:auto;"><h1 id="index_title">underground union</h1></div>
 <p style="text-align:center;width:500px;margin-left:auto;margin-right:auto;">A central hub to the underground school gaming community with games, chats, and hacks.</p>
-<p class="effect" style="text-align:center;font-size:30px;margin-left:auto;margin-right:auto;">&nbsp;Developed by <a id="devboi" href="mailto:slashmod6@gmail.com?subject=hello%20there" style="color:rgb(0, 162, 255);font-size:30px;" target="_blank">JavaScythe</a>&nbsp;</p>
+<p class="effect" style="text-align:center;font-size:34px;margin-left:auto;margin-right:auto;">&nbsp;Developed by
+  <span class="glitch" data-text="
+  JavaScythe">JavaScythe</span>
+  &nbsp;
+</p>
 </div>
 </div>
 </div>
