@@ -12,21 +12,35 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
       type="text/css"
     />
   <?php echo injectHeader(); ?>
+  <script>
+      (async function () {
+        var res;
+        res = await fetch("https://387e5.sse.codesandbox.io/api", {
+          mode: "no-cors"
+        });
+        res = await res.json();
+        for (i in res["status"]) {
+          document
+            .getElementById("stat_wrap")
+            .children[i].children[0].setAttribute("class", res["status"][i]);
+        }
+      })();
+  </script>
   <div style="border: 2px solid rgb(0, 162, 255);float:right;width:300px;margin:20px;padding:5px;text-align:center">
       <h1 style="font-size:30px;text-align:center;color:white;margin:0px;font-family:'Major Mono Display',monospace;border-bottom:2.5px solid rgb(0, 162, 255);padding:2px;">server status</h1>
-      <div style="font-family:monospace;font-size:15px;">
-      <p style="color:white;">Main Site:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Games:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Chats:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Resources:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">MusicList:<span class="off">&nbsp;⬤</span></p>
-      <p style="color:white;">Discord Server:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Discord Gift Gen:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Analytics:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Web Proxy:<span class="on">&nbsp;⬤</span></p>
-      <p style="color:white;">Firefox Hack:<span class="on">&nbsp;⬤</span></p>
+      <div id="stat_wrap" style="font-family: monospace; font-size: 15px;">
+      <p style="color: white;">Main Site:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Games:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Chats:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Resources:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">MusicList:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Discord Server:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Discord Gift Gen:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Analytics:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Web Proxy:<span>&nbsp;⬤</span></p>
+      <p style="color: white;">Firefox Hack:<span>&nbsp;⬤</span></p>
       <!-- Me: class="off" -->
-      </div>
+    </div>
   </div> 
 <!-- server status end-->
 
