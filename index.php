@@ -15,7 +15,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
   <script>
       (async function () {
         var res;
-        try{res = await fetch("https://387e5.sse.codesandbox.io/api");
+        try{res = await fetch("https://api.i10.repl.co/api");
         res = await res.json();
         for (i in res["status"]) {
           document
