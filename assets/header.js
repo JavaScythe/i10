@@ -39,4 +39,3 @@ function modal(msg, type) {
 function delmodal(id) {
   document.getElementById(id).setAttribute("style", "opacity:0;");
 }
-modal('Repl.co is unblocked!', 'passive');
