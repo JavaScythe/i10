@@ -11,7 +11,6 @@ function injectHeader() {
     gtag("js", new Date());
     gtag("config", "G-RZG4G9H3VN");
 	</script>
-	<script src="/assets/header.js" async></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
   <meta property="og:type" content="website" />
@@ -30,7 +29,9 @@ function injectHeader() {
       http-equiv="Content-Security-Policy"
       content="upgrade-insecure-requests"
     />
+  <link href="/assets/alert.css" rel="stylesheet" type="text/css" />
 	<title>&zwnj;</title>
+  <script src="/assets/header.js" async></script>
 	<link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg=="
 	/>
 	<link href="/assets/header.css" rel="stylesheet" type="text/css" />

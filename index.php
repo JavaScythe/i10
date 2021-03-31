@@ -45,13 +45,12 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
   </div> 
 <!-- server status end-->
 
-
 <div><!-- main overview -->
 
-<blockquote style="float:left;">
+<blockquote class="dev-updates" style="float:left;">
 <!--Dynamic Content Here-->
 <h1 style="font-size:28px;color:rgb(0, 162, 255);text-decoration:underline;font-family:'Major Mono Display'">Bulletin</h1>
-<p>Important messages from the developer</p>
+<p style="font-weight:300;" >Important messages from the developer</p>
 <ul style="font-family:arial;font-size:14px;color:white;">
   <li>Try a experimental version of Scratch with interesting addons <strong><a target="_blank" href="https://stretch3.github.io/" style="color:rgb(0, 162, 255);">here.</a></strong></li>
   <li>Replit.com is unblocked</li>

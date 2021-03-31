@@ -8,13 +8,6 @@ if (isMobile) {
 if (location.protocol !== "https:") {
   location.protocol = "https:";
 }
-var style = document.createElement("LINK");
-style.setAttribute(
-  "href",
-  "/assets/alert.css"
-);
-style.setAttribute("rel", "stylesheet");
-document.head.appendChild(style);
 function randomNumber(min, max) {
   var r = Math.random() * (max - min) + min;
   return Math.floor(r);

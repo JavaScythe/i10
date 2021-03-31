@@ -106,6 +106,9 @@ a:visited {
 .pos {
   color: rgb(255, 174, 0);
 }
+.dev-updates{
+  padding-top: 10vh;
+}
 #welcome_title {
   color: rgb(0, 162, 255);
   font-family: monospace;
