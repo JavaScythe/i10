@@ -54,7 +54,6 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <p>Important messages from the developer</p>
 <ul style="font-family:arial;font-size:14px;color:white;">
   <li>Try a experimental version of Scratch with interesting addons <strong><a target="_blank" href="https://stretch3.github.io/" style="color:rgb(0, 162, 255);">here.</a></strong></li>
-  <li>Newsletter sent!</li>
   <li>Replit.com is unblocked</li>
   <li>Check the chat for news on the blocking of repl.it</li>
   <li>Yeah, I need a better name for this site. Suggest one <strong><a href="https://forms.gle/8tjDemWKyqUUH9uk9" style="color:rgb(0, 162, 255);">here.</a></strong></li>
