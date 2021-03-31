@@ -1,6 +1,6 @@
 <?php
 function injectHeader() {
-  $tips = ['so many games added', 'development continues', 'now an offical warez site','feared by many', 'sign up for newsletters, they have special content', 'built by JavaScythe'];
+  $tips = ['so many games added', 'development continues', 'now an offical warez site','feared by many', 'sign up for newsletters, they have special content', 'built by JavaScythe', 'now served on three domains'];
   $tip = $tips[array_rand($tips)];
   return '
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZG4G9H3VN">
