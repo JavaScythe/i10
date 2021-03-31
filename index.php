@@ -15,14 +15,15 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
   <script>
       (async function () {
         var res;
-        try{res = await fetch("https://387e5.sse.codesandbox.io/api");}catch(e){/*alert(e)*/};
-        res = await res.text();
-        //alert(res);
+        try{res = await fetch("https://387e5.sse.codesandbox.io/api");
+        res = await res.json();
         for (i in res["status"]) {
           document
             .getElementById("stat_wrap")
             .children[i].children[0].setAttribute("class", res["status"][i]);
         }
+        document.getElementById("stLoad").remove();
+        }catch(e){modal(e, 'passive');};
       })();
   </script>
   <div style="border: 2px solid rgb(0, 162, 255);float:right;width:300px;margin:20px;padding:5px;text-align:center">
@@ -38,6 +39,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
       <p style="color: white;">Analytics:<span>&nbsp;⬤</span></p>
       <p style="color: white;">Web Proxy:<span>&nbsp;⬤</span></p>
       <p style="color: white;">Firefox Hack:<span>&nbsp;⬤</span></p>
+      <p class="statusload" id="stLoad">Fetching...</p>
       <!-- Me: class="off" -->
     </div>
   </div> 
@@ -51,6 +53,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <h1 style="font-size:28px;color:rgb(0, 162, 255);text-decoration:underline;font-family:'Major Mono Display'">Bulletin</h1>
 <p>Important messages from the developer</p>
 <ul style="font-family:arial;font-size:14px;color:white;">
+  <li>Try a experimental version of Scratch with interesting addons <strong><a target="_blank" href="https://stretch3.github.io/" style="color:rgb(0, 162, 255);">here.</a></strong></li>
   <li>Newsletter sent!</li>
   <li>Replit.com is unblocked</li>
   <li>Check the chat for news on the blocking of repl.it</li>
@@ -62,8 +65,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <div style="width:500px;height:52.66px;border:none;margin-top:50px;margin-bottom:30px;padding:none;margin-left:auto;margin-right:auto;"><h1 id="index_title">underground union</h1></div>
 <p style="text-align:center;width:500px;margin-left:auto;margin-right:auto;">A central hub to the underground school gaming community with games, chats, and hacks.</p>
 <p class="effect" style="text-align:center;font-size:34px;margin-left:auto;margin-right:auto;">&nbsp;Developed by
-  <span class="glitch" data-text="
-  JavaScythe">JavaScythe</span>
+  <a target="_blank" href="mailto:slashmod6@gmail.com?subject=hello%20there" class="glitch" data-text="JavaScythe#3827">JavaScythe#3827</a>
   &nbsp;
 </p>
 </div>
