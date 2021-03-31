@@ -332,3 +332,6 @@ div iframe {
   50%{width: calc(auto / 2)}
   100%{width: auto}
 }
+#small{
+  font-size: 12px;
+}
