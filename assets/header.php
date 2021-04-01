@@ -53,8 +53,7 @@ function injectHeader() {
           <li><a href="/music.php">Music</a></li>
           <li><a href="/help.php">Cheats</a></li>
           <li><a href="/program.php">Coding</a></li>
-          <li><a href="/contact.php">Contact</a></li>
-          <li><a href="/terms.php">Disclaimer</a></li>
+          <li><a href="/about.php">About</a></li>
         </ul>
       </nav>
       <svg id="overlay-img" preserveAspectRatio="none" viewBox="0 0 1071.50537109375 33.79237747192383" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="1071.50537109375px" height="33.79237747192383px"><rect id="ee-background" x="0" y="0" width="1071.50537109375" height="33.79237747192383" style="fill: white; fill-opacity: 0; pointer-events: none;"/>
