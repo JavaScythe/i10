@@ -12,21 +12,6 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
       type="text/css"
     />
   <?php echo injectHeader(); ?>
-  <script>
-      (async function () {
-        var res;
-        try{
-          res = await fetch("https://api.i10.repl.co/api");
-          res = await res.json();
-          for (i in res["status"]) {
-            document
-              .getElementById("stat_wrap")
-              .children[i].children[0].setAttribute("class", res["status"][i]);
-          }
-          document.getElementById("stLoad").remove();
-        }catch(e){modal(e, 'passive');};
-      })();
-  </script>
   <div style="border: 2px solid rgb(0, 162, 255);float:right;width:300px;margin:20px;padding:5px;text-align:center">
       <h1 style="font-size:30px;text-align:center;color:white;margin:0px;font-family:'Major Mono Display',monospace;border-bottom:2.5px solid rgb(0, 162, 255);padding:2px;">server status</h1>
       <div id="stat_wrap" style="font-family: monospace; font-size: 15px;">
@@ -57,7 +42,14 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
   <li>Replit.com is unblocked</li>
   <li>Check the chat for news on the blocking of repl.it</li>
   <li>Yeah, I need a better name for this site. Suggest one <strong><a href="https://forms.gle/8tjDemWKyqUUH9uk9" style="color:rgb(0, 162, 255);">here.</a></strong></li>
+  <li class="news-title">Hacker News</li>
+  <li class="news-item"><a id="news0">Loading...</a></li>
+  <li class="news-item"><a id="news1">Loading...</a></li>
+  <li class="news-item"><a id="news2">Loading...</a></li>
+  <li class="news-item"><a id="news3">Loading...</a></li>
+  <li class="news-item"><a id="news4">Loading...</a></li>
 </ul>
+
 </blockquote>
 <div id="dev_small">
 <div id="existing">
@@ -70,6 +62,41 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 </div>
 </div>
   <script>
+        (async function () {
+        var res;
+        try{
+          res = await fetch("https://api.i10.repl.co/api");
+          res = await res.json();
+          for (i in res["status"]) {
+            document
+              .getElementById("stat_wrap")
+              .children[i].children[0].setAttribute("class", res["status"][i]);
+          }
+          document.getElementById("stLoad").remove();
+        }catch(e){modal(e, 'passive');};
+      })();
+  (async function() {
+    try{
+      var res = await fetch('https://hacker-news.firebaseio.com/v0/newstories.json');
+      posts=await res.json();
+      var top={};
+      var url;
+      for(e=0;e<5;e++){
+        url='https://hacker-news.firebaseio.com/v0/item/'+posts[e]+'.json';
+        post = await fetch(url);
+        post = await post.json();
+        top[Object.keys(top).length]=post;
+      }
+      for(p in top){
+        document.getElementById("news"+p).textContent = top[p]["title"];
+        if(top[p]["url"]!=undefined){
+        document.getElementById("news"+p).setAttribute("href",top[p]["url"]);
+        }
+        document.getElementById("news"+p).setAttribute("target", "_blank");
+        document.getElementById("news"+p).setAttribute("class", "s");
+      }
+    } catch (e){modal(e, "passive");};
+    })();
   var query = {};
   location.search.substr(1).split("&").forEach(function(item) {query[item.split("=")[0]] = item.split("=")[1]});
   if (query['invite'] == 1){

@@ -335,3 +335,28 @@ div iframe {
 #small{
   font-size: 12px;
 }
+.news-item{
+  display: block;
+  max-width: 25vw;
+}
+.news-item a{
+  color: #fff;
+  transition: all .3s;
+  opacity: 0;
+}
+.news-item a:hover{
+  color: rgb(0, 238, 255);
+}
+.news-item::before{
+  content: "⇨ "
+}
+.news-title{
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -20px;
+  font-size: 18px;
+}
+.s{
+  opacity: 100 !important;
+}
