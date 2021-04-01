@@ -5,6 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <html>
   <head>
   <link href="/assets/main.css" rel="stylesheet" />
+  <link href="/assets/gleff.css" rel="stylesheet" />
   <link
       href="https://fonts.googleapis.com/css?family=Oswald"
       rel="stylesheet"
@@ -12,8 +13,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
     />
   <?php echo injectHeader(); ?>
   <div style="padding: 30px;">
-  <p>UU was founded in October 2020 as a site for unblocked games and chat.</p>
-  <p>UU has since then evolved into a multiuse hacks, games, and chat site</p>
+  <p><span style="font-size:inherit;" class="glitch" data-text="UU">UU</span> was founded in October 2020 as a site for unblocked games and chat.</p>
+  <p><span style="font-size:inherit;" class="glitch" data-text="UU">UU</span> has since then evolved into a multiuse hacks, games, and chat site</p>
   <p>Use this email for suggestions, bug reports, and just anything<br/>Do not spam the email, you will be blocked and quite possibly banned from the chat</p>
   <a style="font-family:arial;font-size:24px;" target="_blank" href="mailto:slashmod6@gmail.com?subject=hello">Send an Email</a>
   </div>
