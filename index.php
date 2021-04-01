@@ -15,14 +15,15 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
   <script>
       (async function () {
         var res;
-        try{res = await fetch("https://api.i10.repl.co/api");
-        res = await res.json();
-        for (i in res["status"]) {
-          document
-            .getElementById("stat_wrap")
-            .children[i].children[0].setAttribute("class", res["status"][i]);
-        }
-        document.getElementById("stLoad").remove();
+        try{
+          res = await fetch("https://api.i10.repl.co/api");
+          res = await res.json();
+          for (i in res["status"]) {
+            document
+              .getElementById("stat_wrap")
+              .children[i].children[0].setAttribute("class", res["status"][i]);
+          }
+          document.getElementById("stLoad").remove();
         }catch(e){modal(e, 'passive');};
       })();
   </script>
