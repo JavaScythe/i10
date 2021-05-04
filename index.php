@@ -58,7 +58,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 <div style="width:500px;height:52.66px;border:none;margin-top:50px;margin-bottom:30px;padding:none;margin-left:auto;margin-right:auto;"><h1 id="index_title">underground union</h1></div>
 <p style="text-align:center;width:500px;margin-left:auto;margin-right:auto;">A central hub to the underground school gaming community with games, chats, and hacks.</p>
 <p class="effect" style="text-align:center;font-size:34px;margin-left:auto;margin-right:auto;">&nbsp;Developed by
-  <a target="_blank" href="mailto:slashmod6@gmail.com?subject=hello%20there" class="glitch" data-text="JavaScythe">JavaScythe</a><span id="small" class="glitch" data-text="#3827">#3827</span>&nbsp;
+  <a target="_blank" href="mailto:dev@undergroundunion.tk?subject=hello%20there" class="glitch" data-text="JavaScythe">JavaScythe</a><span id="small" class="glitch" data-text="#3827">#3827</span>&nbsp;
 </p>
 </div>
 </div>

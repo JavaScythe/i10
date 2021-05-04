@@ -8,6 +8,6 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
   <?php echo injectHeader(); ?>
   <h1>Contact</h1> 
   <p>Use this email for suggestions, bug reports, and just anything<br/>Do not spam the email, you will be blocked and quite possibly banned from the chat</p>
-  <a style="font-family:arial;font-size:24px;" target="_blank" href="mailto:slashmod6@gmail.com?subject=hello">Send an Email</a>
+  <a style="font-family:arial;font-size:24px;" target="_blank" href="mailto:dev@undergroundunion.tk?subject=hello">Send an Email</a>
   </body>
 </html>
